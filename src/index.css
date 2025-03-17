@@ -400,3 +400,47 @@ footer {
     gap: 1rem;
   }
 }
+
+.search-form {
+  display: flex;
+  margin: 1.5rem 0;
+}
+
+.search-input {
+  flex: 1;
+  padding: 0.75rem;
+  border: 1px solid var(--border-color);
+  border-radius: 4px 0 0 4px;
+  font-size: 1rem;
+}
+
+.search-button {
+  padding: 0.75rem 1.5rem;
+  border-radius: 0 4px 4px 0;
+}
+
+.clear-search {
+  background-color: #95a5a6;
+  margin-left: 0.5rem;
+  border-radius: 4px;
+}
+
+.clear-search:hover {
+  background-color: #7f8c8d;
+}
+
+.search-results-info {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.no-results {
+  text-align: center;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
